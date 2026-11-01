@@ -1,4 +1,4 @@
-# annsa-ai
+# Annsa
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,149 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-annsa-ai is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://annsa.ai/
+Annsa is project and customer management for agent teams. Choose what to build from your customers, direct every agent from one plan and learn as you go. Based in Sydney, Australia, Annsa provides a source of direction for agent teams, offering features such as roadmaps, feedback integration, and AI-powered decision tools. It enables teams to prioritize work, share insights, and automate workflows across multiple platforms.
+
+**Areas:** ProjectManagement · CustomerManagement · AgentTeams · AI · SaaS
+
+## Annsa on APIs.io
+
+Everything profiled for Annsa is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/annsa-ai/](https://apis.io/providers/annsa-ai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (3)
+
+- [Annsa Agents API](https://apis.io/apis/annsa-ai/annsa-ai-agents-api/) — The MCP surface — ranked priorities, codebase-aware specs, search.
+- [Annsa Ingest API](https://apis.io/apis/annsa-ai/annsa-ai-ingest-api/) — Getting customer signal into Annsa.
+- [Annsa Service API](https://apis.io/apis/annsa-ai/annsa-ai-service-api/) — Liveness.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Annsa Ai Agentic Access](https://apis.io/agentic-access/annsa-ai/annsa-ai-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [FeedbackBatchResult](https://apis.io/schemas/annsa-ai/annsa-ai-feedback-batch-result/)
+- [FeedbackDuplicate](https://apis.io/schemas/annsa-ai/annsa-ai-feedback-duplicate/)
+- [FeedbackItem](https://apis.io/schemas/annsa-ai/annsa-ai-feedback-item/)
+- [HealthStatus](https://apis.io/schemas/annsa-ai/annsa-ai-health-status/)
+- [TranscriptUpload](https://apis.io/schemas/annsa-ai/annsa-ai-transcript-upload/)
+- [WidgetSubmission](https://apis.io/schemas/annsa-ai/annsa-ai-widget-submission/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Annsa Ai Context](https://apis.io/jsonld/annsa-ai/annsa-ai-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Annsa API Rules](https://apis.io/rules/annsa-ai/annsa-ai-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Annsa Ai Authentication](https://apis.io/security/annsa-ai/annsa-ai-authentication/)
+- [Annsa Ai Domain Security](https://apis.io/security/annsa-ai/annsa-ai-domain-security/)
+- [Annsa Ai Vulnerability Disclosure](https://apis.io/security/annsa-ai/annsa-ai-vulnerability-disclosure/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Annsa Ai Scopes](https://apis.io/scopes/annsa-ai/annsa-ai-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Annsa Ai Plans Pricing](https://apis.io/plans/annsa-ai/annsa-ai-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Annsa Ai Rate Limits](https://apis.io/rate-limits/annsa-ai/annsa-ai-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://annsa.ai/)
+- [Documentation](https://annsa.ai/docs)
+- [Getting started](https://annsa.ai/docs/quick-start)
+- [API reference](https://annsa.ai/openapi.json)
+- [Pricing](https://annsa.ai/pricing)
+- [Sign up](https://app.annsa.ai/signup)
+- [Support](https://annsa.ai/contact)
+- [Changelog](https://annsa.ai/changelog)
+- [Blog](https://annsa.ai/blog)
+- [Security](https://annsa.ai/security)
+- [Terms of service](https://annsa.ai/terms)
+- [Privacy policy](https://annsa.ai/privacy)
+- [GitHub](https://github.com/annsa-ai)
+
+## API Evangelist rating
+
+**Kin Score 71.4** — exemplar · rubric 0.26.0 · scored 2026-11-01
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 64.2 |
+| Contract governance | 79.1 |
+| Operational transparency | 55.8 |
+| Developer ergonomics | 70.7 |
+| Access clarity | 73.2 |
+
+**Agent readiness 62.5** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | verified |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 37.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/annsa-ai/](https://apis.io/providers/annsa-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Annsa: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/annsa-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
